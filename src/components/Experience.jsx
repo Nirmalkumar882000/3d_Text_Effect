@@ -1,10 +1,16 @@
+import { OrbitControls, Text } from '@react-three/drei'
 import React from 'react'
 
 function Experience() {
   return (
-    <h1 className="text-3xl font-bold underline">
-    Hello world!
-  </h1>
+    <mesh>
+      <Text>
+      MY LITTLE{"\n"}CAMPING
+      <meshBasicMaterial color={"red"}/>
+      </Text>
+     
+      
+    </mesh>
   )
 }
 
